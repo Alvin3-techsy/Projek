@@ -152,7 +152,7 @@ function renderTasks() {
 
         content.append(title, status);
 
-        const deleteButton = document.createElement("button");
+        const deleteButton = document.createElement("button"); //button deletenya
         deleteButton.type = "button";
         deleteButton.className = "btn btn-outline-danger btn-sm todo-delete";
         deleteButton.textContent = "Hapus";
