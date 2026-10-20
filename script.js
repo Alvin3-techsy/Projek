@@ -94,11 +94,6 @@ todoForm.addEventListener("submit", function (event) {
         return;
     }
 
-    if (title.length > 50) { // memberi tahu kalo gak boleh lewatin lebih dari 50 karakter, bisa di ubah sesuka hati berapa banyak karakternya
-        showMessage("Nama tugas maksimal 50 karakter.", true);
-        return;
-    }
-
     addTask(title);
     todoInput.value = "";
     clearMessage();  
