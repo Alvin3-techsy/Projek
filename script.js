@@ -178,7 +178,7 @@ function renderTasks() {
         task => task.completed
     ).length;
 
-    if (filteredTasks.length === 0) { // ini sampe line 192 akan tampil kalo udah input tugas, kalo belom ada di ketiga filter akan tertulis "belum ada tugas"
+    if (filteredTasks.length === 0) { // ini sampe line 192 akan tampil kalo udah input tugas kalo belom ada, di ketiga filter akan tertulis "belum ada tugas"
         emptyMessage.hidden = false;
 
         if (tasks.length === 0) {
