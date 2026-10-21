@@ -97,6 +97,10 @@ body {
         padding: 18px !important;
     }
 
+    #todo-list {
+        max-height: 240px;
+    }
+
     #todo-list .list-group-item {
         gap: 8px;
         padding: 12px 9px;
