@@ -27,6 +27,9 @@ body {
 
 #todo-list {
     gap: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+    overscroll-behavior: contain;
 }
 
 #todo-list .list-group-item {
